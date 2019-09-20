@@ -7,7 +7,7 @@ I have been using this project to measure sump (under ground) water tank water l
 3) Calculates distance of water level in cm<br>
 4) Calculates distance of water level in feet<br>
 5) Shows historical record of water level in cm, percentage and in liters<br>
-6) Different types of Water Level Alerts by taking input from app)<br>
+6) Different types of Water Level Alerts by taking input from app<br>
 7) Reset All Alerts feature to reset one time alert flag <br>
 8) Water coming alert (doesn't works properly as sensor data fluctuates)<br>
 9) Wifi signal strength indicator<br>
@@ -24,10 +24,10 @@ Open settings.h and change Bynk Auth code, Wifi settings, server settings and fl
 
 <h3>Ultrasonic Sensor to NodeMCU Connection</h3>
 
-5V/VCC to Vin
-Trig to D6/12
-Echo to D5/14
-GND  to GND
+5V/VCC to Vin<br>
+Trig to D6/12<br>
+Echo to D5/14<br>
+GND  to GND<br>
 
 <h2>Software Setup </h2>
 
