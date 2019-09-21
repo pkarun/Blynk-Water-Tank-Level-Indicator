@@ -13,9 +13,9 @@ I have been using this project to measure sump (under ground) water tank water l
 9) Wifi signal strength indicator<br>
 
 <h2>Requirements</h2>
-1) Blynk App <br>
-2) NodeMCU <br>
-3) Ultrasonic sensor (I used HCSRO4)<br>
+1) <a href="https://play.google.com/store/apps/details?id=cc.blynk" target="_blank">Blynk App</a> <br>
+2) <a href="http://s.click.aliexpress.com/e/nlefJ4PI" target="_blank">NodeMCU</a> <br>
+3) <a href="http://s.click.aliexpress.com/e/e6xt0wEy" target="_blank">Ultrasonic sensor (I used HCSRO4)</a><br>
 <h2> Installation </h2>
 Open settings.h and change Bynk Auth code, Wifi settings, server settings and flow calibration.
 
