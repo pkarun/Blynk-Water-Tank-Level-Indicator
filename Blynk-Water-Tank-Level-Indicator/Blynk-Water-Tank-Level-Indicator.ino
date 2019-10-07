@@ -5,10 +5,11 @@
  */
 
 
-#include "settings.h" //Make sure you UNCOMMENT this before you use.
-//#include "my_settings.h" //This is my personal settings. You can remove this line or COMMENT it when you are using.
+//#define BLYNK_PRINT Serial        // Uncomment for debugging 
 
-#define BLYNK_PRINT Serial    // Comment this out to disable prints and save space
+#include "settings.h"           
+//#include "secret.h"               // <<--- UNCOMMENT this before you use and change values on config.h tab
+#include "my_secret.h"              // <<--- COMMENT-OUT or REMOVE this line before you use. This is my personal settings.
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -914,17 +915,17 @@ void setup() {
 
 
 
-  //15sec
-  timer.setInterval(15000L, MeasureCm);
-  timer.setInterval(15000L, wifiSignalStrength);
-  timer.setInterval(15000L, topWaterLevelAlertCheck);
-  timer.setInterval(15000L, percentageGreaterThanAlertCheck1);
-  timer.setInterval(15000L, lessThanOneTimePercentAlertCheck1);
-  timer.setInterval(15000L, lessThanOneTimeCmAlertCheck1);
-  timer.setInterval(15000L, litersLessThanAlertCheck1);
-  timer.setInterval(15000L, litersGreaterThanAlertCheck1);
-  timer.setInterval(15000L, waterComingCheck);
-  timer.setInterval(15000L, resetAlerts);
+  //15sec 15000L
+  timer.setInterval(100L, MeasureCm);
+  timer.setInterval(100L, wifiSignalStrength);
+  timer.setInterval(100L, topWaterLevelAlertCheck);
+  timer.setInterval(100L, percentageGreaterThanAlertCheck1);
+  timer.setInterval(100L, lessThanOneTimePercentAlertCheck1);
+  timer.setInterval(100L, lessThanOneTimeCmAlertCheck1);
+  timer.setInterval(100L, litersLessThanAlertCheck1);
+  timer.setInterval(100L, litersGreaterThanAlertCheck1);
+  timer.setInterval(100L, waterComingCheck);
+  timer.setInterval(100L, resetAlerts);
 
 
 

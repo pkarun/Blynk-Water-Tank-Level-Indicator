@@ -1,4 +1,4 @@
-                           
+                    
                            
                            /////////////////////////////////////////////////////////////////
                           //                           Settings                          //
@@ -62,7 +62,7 @@
    
 //Button widget on blynk app
 #define VPIN_BUTTON_WATER_STATUS              V14
-#define VPIN_BUTTON_FEET_IS_LESS_THAN         V6 //Recursive Alert. We don't want to soak our sensor in water.
+#define VPIN_BUTTON_FEET_IS_LESS_THAN         V6  //Recursive Alert. We don't want to soak our sensor in water.
 #define VPIN_BUTTON_CM_LESS_THAN              V40
 #define VPIN_BUTTON_PERCENTAGE_LESS_THAN      V30
 #define VPIN_BUTTON_LITERS_LESS_THAN          V50
@@ -70,27 +70,10 @@
 #define VPIN_BUTTON_PERCENTAGE_GREATER_THAN   V15
 #define VPIN_BUTTON_RESET_ALL_ALERTS          V11 //Resets all alerts
 
-
-/***************************************************
- *       Blynk Settings 
- **************************************************/
- 
-#define AUTH "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" //Live
-
-
-/***************************************************
- *        WiFi Settings
- **************************************************/
-  
-#define WIFI_SSID "xxxxxxxxxxxx"
-#define WIFI_PASS "xxxxxxxxxxxx"
-
-
 /***************************************************
  * 
  *        Server Settings
  **************************************************/
       
 #define OTA_HOSTNAME "Water Level Indicator"
-#define SERVER "xxx.xxx.xx.xxx"
-#define PORT 8080
+ 
